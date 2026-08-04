@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const openInvitation = () => {
     entryOverlay.classList.add('is-hidden');
+    document.documentElement.style.overflow = '';
     document.body.style.overflow = '';
     bgm.play()
       .then(() => setPlayingState(true))
@@ -40,6 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     entryOverlay.removeEventListener('click', openInvitation);
   };
 
+  document.documentElement.style.overflow = 'hidden';
   document.body.style.overflow = 'hidden'; // hold the page still behind the overlay
   entryOverlay.addEventListener('click', openInvitation);
 
