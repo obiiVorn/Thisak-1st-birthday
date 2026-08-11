@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--
+  CACHE-BUSTING NOTE:
+  Every image/css/js/audio link below ends in "?v=1".
+  Whenever you update a photo, the CSS, or the JS and push to GitHub,
+  bump that number (v=1 -> v=2 -> v=3 ...) EVERYWHERE in this file
+  so phones/browsers and link-preview services fetch the new version
+  instead of an old cached copy. Easiest way: open this file in
+  GitHub's editor, use "Find and replace" (or Ctrl/Cmd+F), search
+  for "v=1" and replace all with "v=2". That's it.
+-->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="theme-color" content="#EAF6FD">
@@ -10,14 +20,14 @@
 
 <meta property="og:title" content="Thiksak's 1st Birthday Invitation">
 <meta property="og:description" content="Please join us as we celebrate!">
-<meta property="og:image" content="https://thisakbirthday.online/images/preview1.jpg">
+<meta property="og:image" content="https://thisakbirthday.online/images/preview1.jpg?v=1">
 <meta property="og:url" content="https://thisakbirthday.online">
 <meta property="og:type" content="website">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Thiksak's 1st Birthday Invitation">
 <meta name="twitter:description" content="Please join us as we celebrate!">
-<meta name="twitter:image" content="https://thisakbirthday.online/images/preview1.jpg">
+<meta name="twitter:image" content="https://thisakbirthday.online/images/preview1.jpg?v=1">
 
 
 
@@ -25,7 +35,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Quicksand:wght@500;600;700&family=Yellowtail&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=1">
 </head>
 <body>
 
@@ -38,7 +48,7 @@
 </div>
 
 <!-- ================= BACKGROUND MUSIC ================= -->
-<audio id="bgm" src="audio/background-music.mp3" loop preload="auto"></audio>
+<audio id="bgm" src="audio/background-music.mp3?v=1" loop preload="auto"></audio>
 <button id="sound-toggle" class="sound-toggle" type="button" aria-label="Toggle background music" aria-pressed="false">
   <svg class="icon-muted" viewBox="0 0 24 24" aria-hidden="true">
     <path d="M4 9v6h4l5 5V4L8 9H4z"/>
@@ -137,7 +147,7 @@
   <h3 class="child-name">Veasna Vudthiksak</h3>
 
   <div class="hero-photo-frame">
-    <img src="images/hero-baby.jpg" alt="[Child's Name]">
+    <img src="images/hero-baby.jpg?v=1" alt="[Child's Name]">
   </div>
 
   <div class="scroll-cue" aria-hidden="true">
@@ -151,91 +161,91 @@
 
   <article class="month-card" data-direction="left">
     <div class="photo-frame">
-      <img src="images/month-00.jpg" alt="Newborn photo">
+      <img src="images/month-00.jpg?v=1" alt="Newborn photo">
     </div>
     <span class="month-label">Newborn</span>
   </article>
 
   <article class="month-card" data-direction="right">
     <div class="photo-frame">
-      <img src="images/month-01.jpg" alt="1 month old photo">
+      <img src="images/month-01.jpg?v=1" alt="1 month old photo">
     </div>
     <span class="month-label">1 Month</span>
   </article>
 
   <article class="month-card" data-direction="left">
     <div class="photo-frame">
-      <img src="images/month-02.jpg" alt="2 months old photo">
+      <img src="images/month-02.jpg?v=1" alt="2 months old photo">
     </div>
     <span class="month-label">2 Months</span>
   </article>
 
   <article class="month-card" data-direction="right">
     <div class="photo-frame">
-      <img src="images/month-03.jpg" alt="3 months old photo">
+      <img src="images/month-03.jpg?v=1" alt="3 months old photo">
     </div>
     <span class="month-label">3 Months</span>
   </article>
 
   <article class="month-card" data-direction="left">
     <div class="photo-frame">
-      <img src="images/month-04.jpg" alt="4 months old photo">
+      <img src="images/month-04.jpg?v=1" alt="4 months old photo">
     </div>
     <span class="month-label">4 Months</span>
   </article>
 
   <article class="month-card" data-direction="right">
     <div class="photo-frame">
-      <img src="images/month-05.jpg" alt="5 months old photo">
+      <img src="images/month-05.jpg?v=1" alt="5 months old photo">
     </div>
     <span class="month-label">5 Months</span>
   </article>
 
   <article class="month-card" data-direction="left">
     <div class="photo-frame">
-      <img src="images/month-06.jpg" alt="6 months old photo">
+      <img src="images/month-06.jpg?v=1" alt="6 months old photo">
     </div>
     <span class="month-label">6 Months</span>
   </article>
 
   <article class="month-card" data-direction="right">
     <div class="photo-frame">
-      <img src="images/month-07.jpg" alt="7 months old photo">
+      <img src="images/month-07.jpg?v=1" alt="7 months old photo">
     </div>
     <span class="month-label">7 Months</span>
   </article>
 
   <article class="month-card" data-direction="left">
     <div class="photo-frame">
-      <img src="images/month-08.jpg" alt="8 months old photo">
+      <img src="images/month-08.jpg?v=1" alt="8 months old photo">
     </div>
     <span class="month-label">8 Months</span>
   </article>
 
   <article class="month-card" data-direction="right">
     <div class="photo-frame">
-      <img src="images/month-09.jpg" alt="9 months old photo">
+      <img src="images/month-09.jpg?v=1" alt="9 months old photo">
     </div>
     <span class="month-label">9 Months</span>
   </article>
 
   <article class="month-card" data-direction="left">
     <div class="photo-frame">
-      <img src="images/month-10.jpg" alt="10 months old photo">
+      <img src="images/month-10.jpg?v=1" alt="10 months old photo">
     </div>
     <span class="month-label">10 Months</span>
   </article>
 
   <article class="month-card" data-direction="right">
     <div class="photo-frame">
-      <img src="images/month-11.jpg" alt="11 months old photo">
+      <img src="images/month-11.jpg?v=1" alt="11 months old photo">
     </div>
     <span class="month-label">11 Months</span>
   </article>
 
   <article class="month-card" data-direction="left">
     <div class="photo-frame">
-      <img src="images/month-12.jpg" alt="12 months old photo">
+      <img src="images/month-12.jpg?v=1" alt="12 months old photo">
     </div>
     <span class="month-label">12 Months</span>
   </article>
@@ -266,6 +276,6 @@
   <p class="closing-note">We can't wait to celebrate with you 💙</p>
 </footer>
 
-<script src="js/script.js"></script>
+<script src="js/script.js?v=1"></script>
 </body>
 </html>
